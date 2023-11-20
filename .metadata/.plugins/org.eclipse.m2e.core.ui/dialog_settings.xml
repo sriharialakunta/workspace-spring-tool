@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/SR20379928/Downloads/CustomerCapstone"/>
+			<item value="/Users/SR20379928/Downloads/ShoppingService"/>
+			<item value="/Users/SR20379928/Downloads/CustomerCapstone 2"/>
+			<item value="/Users/SR20379928/Downloads/Product-Microservice"/>
+			<item value="/Users/SR20379928/workspace-spring-tool-suite-4-4.18.0.RELEASE/SpringKafka_Inventory"/>
+			<item value="/Users/SR20379928/workspace-spring-tool-suite-4-4.18.0.RELEASE/SpringKafka_Product"/>
+			<item value="/Users/SR20379928/workspace-spring-tool-suite-4-4.18.0.RELEASE/SpringKafka"/>
+			<item value="/Users/SR20379928/Downloads/April5-Eurekaserver-microservices"/>
+			<item value="/Users/SR20379928/Downloads/OptumConfigServer"/>
+			<item value="/Users/SR20379928/workspace-spring-tool-suite-4-4.18.0.RELEASE/SpringBoot_Ass_1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

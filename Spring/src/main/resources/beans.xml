@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="student" class="com.example.demo.entity.Student"
+		scope="prototype">
+		<!-- collaborators and configuration for this bean go here -->
+		<constructor-arg name="id" value="1" />
+		<constructor-arg name="name" value="Srihari" />
+		<constructor-arg name="section" value="A" />
+		<constructor-arg name="address" value="SAP" />
+	</bean>
+	<bean id="s2" class="com.example.demo.entity.Student"
+		scope="prototype">
+		<constructor-arg index="0" value="2" />
+		<constructor-arg index="1" value="Sudheer" />
+		<constructor-arg index="2" value="A" />
+		<constructor-arg index="3" value="PDG" />
+	</bean>
+	<bean id="s3" class="com.example.demo.entity.Student"
+		scope="prototype">
+		<property name="id" value="3" />
+		<property name="name" value="Venu" />
+		<property name="section" value="A" />
+		<property name="address" value="SAP" />
+
+	</bean>
+	<bean id="s4" class="com.example.demo.entity.Student"
+		scope="singleton">
+		<property name="id" value="4" />
+		<property name="name" value="Venu" />
+		<property name="section" value="A" />
+		<property name="address" value="SAP" />
+
+	</bean>
+	<bean id="s5" class="com.example.demo.entity.Student"
+		scope="prototype">
+		<property name="id" value="5" />
+		<property name="name" value="Venu" />
+		<property name="section" value="A" />
+		<property name="address" value="SAP" />
+
+	</bean>
+</beans>

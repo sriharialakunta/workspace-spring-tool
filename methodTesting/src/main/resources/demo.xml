@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test these 2 Classes">
+ 
+  <test name="Write new post" preserve-order="true">
+    <classes>
+      <class name="methodTesting.ClassTest">
+        <methods>
+          <include name="testOne" />
+        </methods>
+      </class>
+       <class name="methodTesting.ClassTest2">
+        <methods>
+          <include name="testOne" />
+          <include name="testClass" />
+          <include name="testClass1" />
+          <include name="testClass2" />
+          <include name="testClass3" />
+          <include name="testClass4" />
+          <include name="testClass5" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

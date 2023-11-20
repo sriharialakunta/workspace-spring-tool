@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="true" description="Delete 2 resources" element1="/Optum-ConfigServer" element2="/Optum-ConfigServer-client" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1681205878865"/>&#x0A;<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/OptumClientAppToCallMicroService" element2="/Optum-ConfigServer" element3="/Optum-ConfigServer-client" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1681379029609"/>
+</session>

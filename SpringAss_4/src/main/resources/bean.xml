@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="address" class="com.example.demo.model.Address"
+		name="address">
+		<property name="state" value="AndhraPradesh" />
+		<property name="City" value="Guntur" />
+		<property name="village" value="Sattenapalli" />
+		<property name="Street" value="Nandigama" />
+		<property name="pincode" value="522403" />
+	</bean>
+	<bean id="employeeByName" class="com.example.demo.model.Employee"
+		autowire="byName">
+		<constructor-arg value="1"></constructor-arg>
+		<constructor-arg value="Pavan Kumar"></constructor-arg>
+		<constructor-arg value="25000"></constructor-arg>
+		<constructor-arg ref="address" />
+	</bean>
+	<bean id="employeeByTpye" class="com.example.demo.model.Employee"
+		autowire="byType">
+		<constructor-arg value="2"></constructor-arg>
+		<constructor-arg value="Kumar"></constructor-arg>
+		<constructor-arg value="30000"></constructor-arg>
+		<constructor-arg ref="address" />
+	</bean>
+
+</beans>  

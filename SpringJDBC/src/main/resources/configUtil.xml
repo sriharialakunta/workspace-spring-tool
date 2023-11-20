@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="Dbutil"
+		class="com.example.demo.utill.Dbutil">
+		<!-- results in a setDriverClassName(String) call -->
+		<constructor-arg name="driverClassName"
+			value="com.mysql.jdbc.Driver" />
+		<constructor-arg name="url"
+			value="jdbc:mysql://localhost:3306/hibernate" />
+		<constructor-arg  name="username" value="root" />
+		<constructor-arg  name="password" value="Mysqlwork@6" />
+	</bean>
+	<bean id="dao" class="com.example.demo.utill.Dao">
+		<property name="dbutil"> 
+			<ref bean="Dbutil"/>
+		</property>
+	</bean>
+</beans>
